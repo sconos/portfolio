@@ -1,0 +1,183 @@
+/* Header and Navbar */
+
+.logo{
+    width: 65px;
+    height: 65px;
+    display: block;
+    background-color: grey;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background-color: #2563EB;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;;
+}
+
+nav ul li a:hover{
+    background-color: #3B82F6;
+}
+
+body{
+    background-color:#F9FAFB ;
+    color:#111827 ;
+    font-family: Arial, sans-serif;
+}
+
+/* Main content */
+main{
+    margin-top: 2rem;
+    padding: 0.25rem;
+}
+#profile{
+    margin: 2rem auto;
+    display: flex;
+    align-items:stretch;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display:inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.icon img, .location img{
+    width: 30px;
+    height: 30px;
+}
+
+.main-photo{
+    flex: 0 0 300px;
+}
+
+.main-photo img{
+    margin-right:15px;
+    max-width: 100%;
+    height: auto;
+    border-radius:10px;
+}
+
+.description{
+    max-width: 600px;
+    flex: 1;
+}
+
+#about-me{
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.skills{
+    display: flex;
+    gap: 40px;
+}
+
+.skills div{
+    flex: 1;
+}
+
+#featured-projects{
+    margin-top: 2rem;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-projects{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background-color:white;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.project-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#featured-projects a{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+#contact{
+    margin: 2rem auto;
+    align-items: center;
+    justify-content:center;;
+    padding: 20px;
+    width: 60%;
+    border: 1px solid black
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: #2563EB;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
